@@ -1,0 +1,1434 @@
+{
+  "version": "1.0",
+  "generated": "2026-10-16",
+  "bubu": {
+    "name": "Bubu",
+    "passcode": "1710",
+    "birthday": "October 17"
+  },
+  "photos": [
+    {
+      "file": "6237770850585219825.jpg",
+      "favorite": true,
+      "featured": true,
+      "album": "moments",
+      "caption": "My beautiful Bubu 💗"
+    },
+    {
+      "file": "6237770850585219826.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "So adorable 🥺"
+    },
+    {
+      "file": "6237770850585219827.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "Love this smile 💕"
+    },
+    {
+      "file": "6237770850585219828.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "moments",
+      "caption": "My whole world 🌸"
+    },
+    {
+      "file": "6237770850585219829.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "memories",
+      "caption": "So pretty 💖"
+    },
+    {
+      "file": "6237770850585219830.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Always radiant ✨"
+    },
+    {
+      "file": "6237770850585219831.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Pure joy 🎀"
+    },
+    {
+      "file": "6237770850585219833.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "This look 😍"
+    },
+    {
+      "file": "6237770850585219834.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Gorgeous 💝"
+    },
+    {
+      "file": "6237770850585219835.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Beautiful soul 🌷"
+    },
+    {
+      "file": "6237770850585219836.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "My favorite person 💗"
+    },
+    {
+      "file": "6237770850585219837.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Sweet as always 🍬"
+    },
+    {
+      "file": "6237770850585219838.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "together",
+      "caption": "Our special moment 💑"
+    },
+    {
+      "file": "6237770850585219839.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "together",
+      "caption": "Forever us 💕"
+    },
+    {
+      "file": "6237770850585219840.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "You light up my world 🌟"
+    },
+    {
+      "file": "6237770850585219842.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "That smile though 🥰"
+    },
+    {
+      "file": "6237770850585219843.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Precious 💎"
+    },
+    {
+      "file": "6237770850585219844.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Soft and lovely 🌸"
+    },
+    {
+      "file": "6237770850585219845.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Dreamy 🌙"
+    },
+    {
+      "file": "6237770850585219846.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Magical 🦋"
+    },
+    {
+      "file": "6237770850585219847.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "My everything 💗"
+    },
+    {
+      "file": "6237770850585219848.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "So cute 🥺"
+    },
+    {
+      "file": "6237770850585219849.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Happy girl 🌼"
+    },
+    {
+      "file": "6237770850585219850.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Sunshine 🌞"
+    },
+    {
+      "file": "6237770850585219851.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Angel 👼"
+    },
+    {
+      "file": "6237770850585219852.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Glowing 💫"
+    },
+    {
+      "file": "6237770850585219853.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "My heart 💓"
+    },
+    {
+      "file": "6237770850585219854.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Lovely day 🌈"
+    },
+    {
+      "file": "6237770850585219855.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "So wonderful 🌺"
+    },
+    {
+      "file": "6237770850585219856.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Pretty in pink 🌸"
+    },
+    {
+      "file": "6237770850585219859.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Treasure 💖"
+    },
+    {
+      "file": "6237770850585219860.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "My star ⭐"
+    },
+    {
+      "file": "6237770850585219861.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Beauty 🌷"
+    },
+    {
+      "file": "6237770850585219862.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Cherished 💝"
+    },
+    {
+      "file": "6237770850585219863.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Adored 🥰"
+    },
+    {
+      "file": "6237770850585219864.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "My joy 😊"
+    },
+    {
+      "file": "6237770850585219865.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "Pure happiness 🌻"
+    },
+    {
+      "file": "6237770850585219866.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Radiant 💕"
+    },
+    {
+      "file": "6237770850585219867.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Breathtaking 💗"
+    },
+    {
+      "file": "6237770850585219870.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Shining bright 🌟"
+    },
+    {
+      "file": "6237770850585219871.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "My sunshine ☀️"
+    },
+    {
+      "file": "6237770850585219872.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "together",
+      "caption": "Together always 💑"
+    },
+    {
+      "file": "6237770850585219873.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Sweet moments 🍬"
+    },
+    {
+      "file": "6237770850585219874.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "Just you 💗"
+    },
+    {
+      "file": "6237770850585219875.jpg",
+      "favorite": true,
+      "featured": false,
+      "album": "moments",
+      "caption": "Always beautiful 🌺"
+    },
+    {
+      "file": "6237770850585219876.jpg",
+      "favorite": false,
+      "featured": false,
+      "album": "memories",
+      "caption": "My world 🌍"
+    }
+  ],
+  "videos": [
+    {
+      "file": "IMG_0008.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Sweet Moment"
+    },
+    {
+      "file": "IMG_0116.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "A Memory"
+    },
+    {
+      "file": "IMG_0117.MP4",
+      "favorite": true,
+      "featured": true,
+      "album": "clips",
+      "title": "Beautiful Clip"
+    },
+    {
+      "file": "IMG_0131.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Moment Together"
+    },
+    {
+      "file": "IMG_0323.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Happy Day"
+    },
+    {
+      "file": "IMG_0407.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Special Day"
+    },
+    {
+      "file": "IMG_0408.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Our Time"
+    },
+    {
+      "file": "IMG_0411.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Lovely"
+    },
+    {
+      "file": "IMG_0461.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Precious"
+    },
+    {
+      "file": "IMG_0526.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Sweet"
+    },
+    {
+      "file": "IMG_0594.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny Moment"
+    },
+    {
+      "file": "IMG_0595.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Little Clip"
+    },
+    {
+      "file": "IMG_0596.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Blink"
+    },
+    {
+      "file": "IMG_0597.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Softly"
+    },
+    {
+      "file": "IMG_0598.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Gentle"
+    },
+    {
+      "file": "IMG_0603.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Warm"
+    },
+    {
+      "file": "IMG_0651.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Favourite Clip"
+    },
+    {
+      "file": "IMG_0654.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Long Day"
+    },
+    {
+      "file": "IMG_0680.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Together"
+    },
+    {
+      "file": "IMG_0762.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Us"
+    },
+    {
+      "file": "IMG_0914.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Quick One"
+    },
+    {
+      "file": "IMG_1073.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Remember This"
+    },
+    {
+      "file": "IMG_1445.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Bubu"
+    },
+    {
+      "file": "IMG_1446.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Smile"
+    },
+    {
+      "file": "IMG_6985.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "She"
+    },
+    {
+      "file": "IMG_7083.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Quick Memory"
+    },
+    {
+      "file": "IMG_7084.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Our Moment"
+    },
+    {
+      "file": "IMG_7085.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Love"
+    },
+    {
+      "file": "IMG_7096.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Big Moment"
+    },
+    {
+      "file": "IMG_7097.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Flash"
+    },
+    {
+      "file": "IMG_7102.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Stay"
+    },
+    {
+      "file": "IMG_7105.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Hold"
+    },
+    {
+      "file": "IMG_7107.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Joy"
+    },
+    {
+      "file": "IMG_7137.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Bliss"
+    },
+    {
+      "file": "IMG_7138.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Gentle Wind"
+    },
+    {
+      "file": "IMG_7139.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Float"
+    },
+    {
+      "file": "IMG_7145.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Cherished"
+    },
+    {
+      "file": "IMG_7146.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tender"
+    },
+    {
+      "file": "IMG_7157.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Golden"
+    },
+    {
+      "file": "IMG_7158.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Bloom"
+    },
+    {
+      "file": "IMG_7159.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Glow"
+    },
+    {
+      "file": "IMG_7160.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Shine"
+    },
+    {
+      "file": "IMG_7163.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Magic"
+    },
+    {
+      "file": "IMG_7176.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Warmth"
+    },
+    {
+      "file": "IMG_7183.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Close"
+    },
+    {
+      "file": "IMG_7184.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Near"
+    },
+    {
+      "file": "IMG_7186.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Quick"
+    },
+    {
+      "file": "IMG_7187.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Flash Clip"
+    },
+    {
+      "file": "IMG_7193.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Special"
+    },
+    {
+      "file": "IMG_7194.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Pink Cloud"
+    },
+    {
+      "file": "IMG_7195.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Soft Breeze"
+    },
+    {
+      "file": "IMG_7198.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Our World"
+    },
+    {
+      "file": "IMG_7199.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Long Memory"
+    },
+    {
+      "file": "IMG_7201.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Stay Here"
+    },
+    {
+      "file": "IMG_7202.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Always"
+    },
+    {
+      "file": "IMG_7273.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Bloom Again"
+    },
+    {
+      "file": "IMG_7274.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Morning"
+    },
+    {
+      "file": "IMG_7275.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Sunrise"
+    },
+    {
+      "file": "IMG_7279.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Rosy Day"
+    },
+    {
+      "file": "IMG_7469.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Adventure"
+    },
+    {
+      "file": "IMG_7482.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Soft"
+    },
+    {
+      "file": "IMG_7483.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Breeze"
+    },
+    {
+      "file": "IMG_7484.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Light"
+    },
+    {
+      "file": "IMG_7486.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Kiss"
+    },
+    {
+      "file": "IMG_7499.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Hold Tight"
+    },
+    {
+      "file": "IMG_7501.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Big Hug"
+    },
+    {
+      "file": "IMG_7514.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Petal"
+    },
+    {
+      "file": "IMG_7516.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Drifting"
+    },
+    {
+      "file": "IMG_7518.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny"
+    },
+    {
+      "file": "IMG_7519.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Whisper"
+    },
+    {
+      "file": "IMG_7671.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Soft Clip"
+    },
+    {
+      "file": "IMG_7672.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Flutter"
+    },
+    {
+      "file": "IMG_7673.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Blossom"
+    },
+    {
+      "file": "IMG_7674.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Petal Drop"
+    },
+    {
+      "file": "IMG_7675.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Bloom Out"
+    },
+    {
+      "file": "IMG_7676.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Linger"
+    },
+    {
+      "file": "IMG_7677.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Ripple"
+    },
+    {
+      "file": "IMG_7678.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny Flash"
+    },
+    {
+      "file": "IMG_7679.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Story"
+    },
+    {
+      "file": "IMG_7680.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Dream"
+    },
+    {
+      "file": "IMG_7681.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Haze"
+    },
+    {
+      "file": "IMG_7682.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Mist"
+    },
+    {
+      "file": "IMG_7683.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Fog"
+    },
+    {
+      "file": "IMG_7684.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Hush"
+    },
+    {
+      "file": "IMG_7685.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Still"
+    },
+    {
+      "file": "IMG_7687.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Beautiful You"
+    },
+    {
+      "file": "IMG_7692.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Gaze"
+    },
+    {
+      "file": "IMG_7693.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Look"
+    },
+    {
+      "file": "IMG_7696.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Glance"
+    },
+    {
+      "file": "IMG_7697.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Eyes"
+    },
+    {
+      "file": "IMG_7757.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny Blink"
+    },
+    {
+      "file": "IMG_7767.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Long Story"
+    },
+    {
+      "file": "IMG_7773.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Song"
+    },
+    {
+      "file": "IMG_7779.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Note"
+    },
+    {
+      "file": "IMG_7782.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tune"
+    },
+    {
+      "file": "IMG_7790.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Melody"
+    },
+    {
+      "file": "IMG_7792.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Harmony"
+    },
+    {
+      "file": "IMG_8007.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny Note"
+    },
+    {
+      "file": "IMG_8008.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Soft Song"
+    },
+    {
+      "file": "IMG_8009.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Lullaby"
+    },
+    {
+      "file": "IMG_8010.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Chorus"
+    },
+    {
+      "file": "IMG_8097.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Verse"
+    },
+    {
+      "file": "IMG_8098.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Bridge"
+    },
+    {
+      "file": "IMG_8100.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Refrain"
+    },
+    {
+      "file": "IMG_8104.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Grand Finale"
+    },
+    {
+      "file": "IMG_8105.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny End"
+    },
+    {
+      "file": "IMG_8239.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Sunset"
+    },
+    {
+      "file": "IMG_8240.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Dusk"
+    },
+    {
+      "file": "IMG_8242.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Twilight"
+    },
+    {
+      "file": "IMG_8243.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Evening"
+    },
+    {
+      "file": "IMG_8244.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Night"
+    },
+    {
+      "file": "IMG_8412.MOV",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Big Memory"
+    },
+    {
+      "file": "IMG_8705.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Quick Star"
+    },
+    {
+      "file": "IMG_8831.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Big Love"
+    },
+    {
+      "file": "IMG_9021.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Short Film"
+    },
+    {
+      "file": "IMG_9025.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Wander"
+    },
+    {
+      "file": "IMG_9026.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Drift"
+    },
+    {
+      "file": "IMG_9028.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Flow"
+    },
+    {
+      "file": "IMG_9415.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Ripple Out"
+    },
+    {
+      "file": "IMG_9416.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Wave"
+    },
+    {
+      "file": "IMG_9417.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tide"
+    },
+    {
+      "file": "IMG_9418.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Shore"
+    },
+    {
+      "file": "IMG_9419.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Horizon"
+    },
+    {
+      "file": "IMG_9420.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Distant"
+    },
+    {
+      "file": "IMG_9421.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Far"
+    },
+    {
+      "file": "IMG_9422.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Reach"
+    },
+    {
+      "file": "IMG_9423.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Touch"
+    },
+    {
+      "file": "IMG_9424.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Hold Me"
+    },
+    {
+      "file": "IMG_9577.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Long Hug"
+    },
+    {
+      "file": "IMG_9579.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Embrace"
+    },
+    {
+      "file": "IMG_9582.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Close Arms"
+    },
+    {
+      "file": "IMG_9638.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Squeeze"
+    },
+    {
+      "file": "IMG_9640.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Wrap"
+    },
+    {
+      "file": "IMG_9641.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny Hug"
+    },
+    {
+      "file": "IMG_9642.MP4",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Micro"
+    },
+    {
+      "file": "IMG_9643.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Snuggle"
+    },
+    {
+      "file": "IMG_9747.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Cuddle"
+    },
+    {
+      "file": "IMG_9776.MP4",
+      "favorite": true,
+      "featured": false,
+      "album": "clips",
+      "title": "Together Always"
+    },
+    {
+      "file": "IMG_9786.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Tiny Together"
+    },
+    {
+      "file": "IMG_9787.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Side by Side"
+    },
+    {
+      "file": "IMG_9794.MOV",
+      "favorite": false,
+      "featured": false,
+      "album": "clips",
+      "title": "Forever"
+    }
+  ],
+  "albums": [
+    {
+      "id": "moments",
+      "name": "Our Moments 💗",
+      "description": "The moments I cherish with you most"
+    },
+    {
+      "id": "memories",
+      "name": "Sweet Memories 🌸",
+      "description": "Every little memory of you"
+    },
+    {
+      "id": "together",
+      "name": "Us Together 💑",
+      "description": "When we were together"
+    },
+    {
+      "id": "clips",
+      "name": "Video Memories 🎬",
+      "description": "Moving moments of you and us"
+    }
+  ],
+  "loveLetters": [
+    {
+      "id": 1,
+      "title": "To My Bubu, With All My Heart",
+      "unlockDate": "morning",
+      "content": "Every morning I wake up grateful that you exist in this world. You make everything better just by being you. Your smile is the first thing I think about when I open my eyes, and your voice is the last thing I want to hear before I sleep. Happy Birthday, my love. This day is yours, and so am I. 💗"
+    },
+    {
+      "id": 2,
+      "title": "What You Mean to Me",
+      "unlockDate": "afternoon",
+      "content": "You are not just my girlfriend — you are my best friend, my safe place, my biggest reason to be better every single day. I love how your eyes light up when you're happy, how you make me laugh even on hard days, how you care so deeply about everything. You are extraordinary, Bubu. Don't ever forget that. 🌸"
+    },
+    {
+      "id": 3,
+      "title": "A Promise for Every Day",
+      "unlockDate": "evening",
+      "content": "I promise to always be there for you. To hold your hand through every storm and dance with you in the rain. To make you feel loved not just today but every single day. Because you deserve nothing less than everything. Happy Birthday, my world. I love you more than words can ever say. 💕"
+    },
+    {
+      "id": 4,
+      "title": "You Are My Universe",
+      "unlockDate": "night",
+      "content": "Sometimes I look at you and wonder how I got so lucky. How someone as wonderful as you chose me. You are my universe, Bubu. Every star in the sky reminds me of a moment with you. Tonight, as you sleep, know that somewhere I am thinking of you and smiling. Sweet dreams, my love. 🌙✨"
+    }
+  ],
+  "birthdaySchedule": [
+    {
+      "time": "12:00 AM",
+      "emoji": "🎂",
+      "title": "It's Your Birthday!",
+      "description": "The clock strikes midnight and the world celebrates you!"
+    },
+    {
+      "time": "Morning",
+      "emoji": "🌅",
+      "title": "Wake Up Beautiful",
+      "description": "Good morning to the most beautiful birthday girl in the world"
+    },
+    {
+      "time": "Afternoon",
+      "emoji": "☀️",
+      "title": "Birthday Glow",
+      "description": "You are glowing extra today — as if you needed a reason!"
+    },
+    {
+      "time": "Evening",
+      "emoji": "🌆",
+      "title": "Golden Hour",
+      "description": "The sky turns pink for you, Bubu. Happy Birthday! 🌸"
+    },
+    {
+      "time": "Night",
+      "emoji": "🌙",
+      "title": "Birthday Stars",
+      "description": "Every star tonight is shining for you. I love you to infinity."
+    }
+  ],
+  "mysteryGifts": [
+    {
+      "id": 1,
+      "title": "Gift 1 — A Promise",
+      "icon": "💌",
+      "description": "A thousand hugs saved just for you whenever you need them."
+    },
+    {
+      "id": 2,
+      "title": "Gift 2 — A Wish",
+      "icon": "⭐",
+      "description": "You get one wish from me. Anything your heart desires."
+    },
+    {
+      "id": 3,
+      "title": "Gift 3 — A Memory",
+      "icon": "📸",
+      "description": "Every photo in this album — moments I never want to forget."
+    },
+    {
+      "id": 4,
+      "title": "Gift 4 — A Song",
+      "icon": "🎵",
+      "description": "Every love song I hear, I hear it thinking of you."
+    },
+    {
+      "id": 5,
+      "title": "Gift 5 — My Heart",
+      "icon": "💗",
+      "description": "You already have it. You've had it for a while now. It's yours."
+    }
+  ]
+}

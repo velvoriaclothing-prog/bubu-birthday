@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#1a0a14">
+  <meta name="description" content="Happy Birthday Bubu! A continuous romantic world of our cherished photos, videos, love letters, and surprises.">
+  <title>Happy Birthday Bubu 🎀 Forever & Always</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Dynamic Bokeh & Star Dust Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Continuous Romantic Ambient Video Loop -->
+  <div id="ambient-video-container">
+    <div class="ambient-overlay"></div>
+    <div class="autoplay-blocked-msg" onclick="resumeAmbientVideo()">
+      <div class="autoplay-play-btn">▶</div>
+      <p>Tap to play romantic moments 💕</p>
+    </div>
+  </div>
+
+  <!-- Floating Particles & Hearts -->
+  <div id="floating-hearts"></div>
+
+  <!-- Music & Quick Settings Top Bar -->
+  <header id="music-player">
+    <span class="music-note-icon" title="Romantic Ambience">🎵</span>
+    <button class="music-btn music-play-btn" title="Toggle Music">▶</button>
+    <button class="music-btn music-mute-btn" title="Mute/Unmute Music">🔇</button>
+    <button class="music-btn settings-open-btn" title="Settings">⚙️</button>
+  </header>
+
+  <!-- Ambient Video Quick Floating Controls -->
+  <aside id="ambient-controls" aria-label="Ambient Controls">
+    <button id="ambient-play-btn" class="ambient-btn" title="Play/Pause Background Video">⏸</button>
+    <button id="ambient-mute-btn" class="ambient-btn" title="Mute/Unmute Background Video">🔇</button>
+  </aside>
+
+  <!-- ==================== LOCK SCREEN ==================== -->
+  <section id="lock-screen" class="screen active" aria-label="Lock Screen">
+    <div class="lock-screen-content">
+      <div class="lock-illustration">
+        <img src="6237770850585219825.jpg" alt="Bubu">
+      </div>
+      <h1 class="lock-title">Happy Birthday, Bubu 💕</h1>
+      <p class="lock-subtitle">Enter Secret Passcode</p>
+      
+      <div class="pin-display">
+        <div class="pin-dot"></div>
+        <div class="pin-dot"></div>
+        <div class="pin-dot"></div>
+        <div class="pin-dot"></div>
+      </div>
+
+      <div class="keypad">
+        <button class="keypad-btn" data-val="1">1</button>
+        <button class="keypad-btn" data-val="2">2</button>
+        <button class="keypad-btn" data-val="3">3</button>
+        <button class="keypad-btn" data-val="4">4</button>
+        <button class="keypad-btn" data-val="5">5</button>
+        <button class="keypad-btn" data-val="6">6</button>
+        <button class="keypad-btn" data-val="7">7</button>
+        <button class="keypad-btn" data-val="8">8</button>
+        <button class="keypad-btn" data-val="9">9</button>
+        <button class="keypad-btn empty-btn" disabled></button>
+        <button class="keypad-btn" data-val="0">0</button>
+        <button class="keypad-btn" data-val="del" aria-label="Delete">⌫</button>
+      </div>
+
+      <div class="unlock-hint">Hint: Our special date (1710) 💗</div>
+
+      <div class="lock-preload-bar" title="Loading romantic memories...">
+        <div class="lock-preload-progress"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MAIN APPLICATION ==================== -->
+  <div id="main-app" class="hidden">
+    
+    <!-- 1. HOME PAGE -->
+    <article id="page-home" class="page active">
+      <div class="home-hero">
+        <div class="hero-photo-frame">
+          <img src="6237770850585219825.jpg" alt="Bubu" class="loaded">
+        </div>
+        <div class="hero-date-badge"><span>🎀</span> 17th October <span>•</span> Forever Yours</div>
+        <h2 class="hero-greeting">Happy Birthday Bubu! 💖</h2>
+        <p class="hero-tagline">To the sweetest, most beautiful soul in my universe. A world made entirely of our cherished memories, moving moments, and endless love.</p>
+        <button class="hero-cta-btn" onclick="navigateTo('gallery')">Explore Our World 🌸</button>
+      </div>
+    </article>
+
+    <!-- 2. PHOTO GALLERY & SLIDESHOW -->
+    <article id="page-gallery" class="page">
+      <header class="page-header">
+        <h2 class="page-title">Our Story & Moments 🌸</h2>
+        <p class="page-subtitle">Every photograph holds a piece of my heart</p>
+      </header>
+      <div class="page-content">
+        <!-- Interactive Slideshow -->
+        <div class="slideshow-player">
+          <div class="slideshow-caption"></div>
+        </div>
+        <div class="slideshow-controls">
+          <button class="slideshow-btn" onclick="prevSlide()" title="Previous slide">◀</button>
+          <button class="slideshow-btn playing" id="slideshow-play-toggle" onclick="STATE.slideshow.paused ? resumeSlideshow() : pauseSlideshow()" title="Pause/Play slideshow">⏸</button>
+          <button class="slideshow-btn" onclick="nextSlide()" title="Next slide">▶</button>
+        </div>
+        <div class="slideshow-indicators"></div>
+
+        <div class="section-divider"></div>
+
+        <!-- Album Filtering & Add Button -->
+        <div class="flex-between" style="margin-bottom:12px;flex-wrap:wrap;gap:8px">
+          <nav class="album-tabs" aria-label="Albums"></nav>
+          <button class="btn-primary" style="padding:6px 14px;font-size:.8rem;border-radius:9999px;white-space:nowrap" onclick="document.querySelector('.settings-open-btn').click(); setTimeout(() => document.getElementById('photo-dropzone')?.scrollIntoView({behavior:'smooth'}), 300);" title="Add or remove photos in settings">
+            <span>📸 Manage / Add Photos</span>
+          </button>
+        </div>
+        <div class="photo-grid" style="margin-top:16px;"></div>
+      </div>
+    </article>
+
+    <!-- 3. ROMANTIC VIDEOS -->
+    <article id="page-videos" class="page">
+      <header class="page-header">
+        <h2 class="page-title">Romantic Memories 🎬</h2>
+        <p class="page-subtitle">Continuous video moments of love and laughter</p>
+      </header>
+      <div class="page-content">
+        <div class="now-playing-title" style="text-align:center;font-weight:700;color:var(--text-secondary);margin-bottom:12px">Select a video clip below to play</div>
+        <div class="video-player-wrapper">
+          <div class="video-controls-bar">
+            <button class="video-control-btn video-play-btn">▶</button>
+            <div class="video-progress"><div class="video-progress-fill"></div></div>
+            <button class="video-control-btn video-mute-btn">🔊</button>
+          </div>
+        </div>
+        <div class="section-divider"></div>
+        <h3 style="margin-bottom:16px;color:var(--text-secondary);font-family:var(--font-display)">All Video Clips</h3>
+        <div class="video-thumb-list"></div>
+      </div>
+    </article>
+
+    <!-- 4. LOVE LETTERS -->
+    <article id="page-letters" class="page">
+      <header class="page-header">
+        <h2 class="page-title">Letters From My Heart 💌</h2>
+        <p class="page-subtitle">Written with love, for your eyes only</p>
+      </header>
+      <div class="page-content">
+        <div class="letters-grid" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:var(--space-md);"></div>
+      </div>
+    </article>
+
+    <!-- 5. LOVE GAMES -->
+    <article id="page-games" class="page">
+      <header class="page-header">
+        <h2 class="page-title">Play With Love 🎀</h2>
+        <p class="page-subtitle">Cute mini-games made for my favorite girl</p>
+      </header>
+      <div class="page-content">
+        <!-- Memory Game -->
+        <div class="glass-card card-padding" style="margin-bottom:24px">
+          <div class="flex-between" style="margin-bottom:16px">
+            <h3 style="font-family:var(--font-display);font-size:1.2rem;color:var(--text-secondary)">🌸 Memory Match</h3>
+            <button class="btn-primary" style="padding:6px 14px;font-size:.8rem" onclick="startMemoryGame()">Restart</button>
+          </div>
+          <div class="stat-row"><span class="stat-label">Moves:</span><span class="stat-value" id="memory-moves">0</span></div>
+          <div class="stat-row"><span class="stat-label">Matches:</span><span class="stat-value" id="memory-matches">0/8</span></div>
+          <div class="stat-row" style="margin-bottom:16px"><span class="stat-label">Time:</span><span class="stat-value" id="memory-timer">0s</span></div>
+          <div id="memory-game-board"></div>
+        </div>
+
+        <!-- Quiz -->
+        <div class="glass-card card-padding">
+          <h3 style="font-family:var(--font-display);font-size:1.2rem;color:var(--text-secondary);margin-bottom:16px;text-align:center">💗 How Well Do You Know Us?</h3>
+          <div id="quiz-container"></div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 6. SURPRISES & TIMELINE -->
+    <article id="page-more" class="page">
+      <header class="page-header">
+        <h2 class="page-title">Surprises & Schedule 🎁</h2>
+        <p class="page-subtitle">Little secrets and plans for your special day</p>
+      </header>
+      <div class="page-content">
+        <h3 style="font-family:var(--font-display);font-size:1.3rem;color:var(--text-secondary);margin-bottom:16px">✨ Mystery Birthday Gifts (Tap to Unveil)</h3>
+        <div class="gift-grid"></div>
+
+        <div class="section-divider"></div>
+
+        <h3 style="font-family:var(--font-display);font-size:1.3rem;color:var(--text-secondary);margin-bottom:16px">🎂 Birthday Timeline</h3>
+        <div class="timeline"></div>
+      </div>
+    </article>
+
+    <!-- NAVIGATION BAR -->
+    <nav id="nav-bar">
+      <div class="nav-items">
+        <button id="nav-home" class="nav-item active" data-page="home" onclick="navigateTo('home')">
+          <span class="nav-icon">🏠</span>
+          <span>Home</span>
+        </button>
+        <button id="nav-gallery" class="nav-item" data-page="gallery" onclick="navigateTo('gallery')">
+          <span class="nav-icon">🖼️</span>
+          <span>Photos</span>
+        </button>
+        <button id="nav-videos" class="nav-item" data-page="videos" onclick="navigateTo('videos')">
+          <span class="nav-icon">🎬</span>
+          <span>Videos</span>
+        </button>
+        <button id="nav-letters" class="nav-item" data-page="letters" onclick="navigateTo('letters')">
+          <span class="nav-icon">💌</span>
+          <span>Letters</span>
+        </button>
+        <button id="nav-games" class="nav-item" data-page="games" onclick="navigateTo('games'); startMemoryGame(); startQuiz();">
+          <span class="nav-icon">🎮</span>
+          <span>Games</span>
+        </button>
+        <button id="nav-more" class="nav-item" data-page="more" onclick="navigateTo('more')">
+          <span class="nav-icon">🎁</span>
+          <span>Gifts</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ==================== LIGHTBOX MODAL ==================== -->
+  <div id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()" title="Close Lightbox">✕</button>
+    <button class="lightbox-nav prev" onclick="lightboxPrev()" title="Previous Photo">◀</button>
+    <img class="lightbox-img" src="" alt="Photo Fullview">
+    <button class="lightbox-nav next" onclick="lightboxNext()" title="Next Photo">▶</button>
+    <div class="lightbox-caption"></div>
+  </div>
+
+  <!-- ==================== LOVE LETTER MODAL ==================== -->
+  <div id="letter-modal" class="modal-overlay">
+    <div class="letter-content-wrapper">
+      <div class="flex-between" style="margin-bottom:12px">
+        <div class="letter-content-title"></div>
+        <button class="modal-close" onclick="document.getElementById('letter-modal').classList.remove('open')">✕</button>
+      </div>
+      <div class="letter-body"></div>
+    </div>
+  </div>
+
+  <!-- ==================== SETTINGS PANEL ==================== -->
+  <div id="settings-overlay" class="modal-overlay"></div>
+  <div id="settings-panel">
+    <div class="settings-handle"></div>
+    <div class="flex-between">
+      <h2 class="settings-title">Experience Settings 🎀</h2>
+      <button class="settings-close-btn modal-close">✕</button>
+    </div>
+
+    <!-- Ambient Video Controls -->
+    <div class="settings-section-title">Ambient Video Experience</div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Background Video
+        <small>Play romantic clips gently in background</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-ambient" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Loop Playlist
+        <small>Seamlessly advance video to video</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-ambient-loop" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Shuffle Video Playlist
+        <small>Play moments in random order</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-ambient-shuffle">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Mute Background Video
+        <small>Keep ambient clips silent</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-ambient-muted" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Pause When Tab Hidden
+        <small>Saves battery and system resources</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-ambient-pause-hidden" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+
+    <!-- Slideshow Settings -->
+    <div class="settings-section-title">Photo Slideshow</div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Auto Advance Slideshow
+        <small>Switch photos automatically</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-slideshow-auto" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Shuffle Slideshow
+        <small>Randomize photo sequence</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-slideshow-shuffle">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Favorites Only
+        <small>Show only starred moments</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-slideshow-favorites">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Slide Speed (seconds)
+        <small>Time per photo</small>
+      </div>
+      <input type="range" id="setting-slideshow-speed" class="settings-slider" min="2" max="10" step="1" value="5">
+    </div>
+
+    <!-- Visual Magic -->
+    <div class="settings-section-title">Visual Magic</div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Floating Hearts
+        <small>Gentle drifting hearts on screen</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-hearts" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Floating Polaroid Snaps
+        <small>Subtle memories drifting in background</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-polaroids" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Animated Bokeh Canvas
+        <small>Shimmering romantic particles</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-animated-bg" checked>
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Reduced Motion
+        <small>Disable intensive animations</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-reduced-motion">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+
+    <!-- Background Music -->
+    <div class="settings-section-title">Audio</div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Background Music
+        <small>Romantic background tune</small>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="setting-music">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+    <div class="settings-row">
+      <div class="settings-label">
+        Music Volume
+      </div>
+      <input type="range" id="setting-music-volume" class="settings-slider" min="0" max="1" step="0.05" value="0.4">
+    </div>
+
+    <!-- Photo Management (Add / Delete) -->
+    <div class="settings-section-title">📸 Photo Management (Add / Delete)</div>
+    
+    <!-- Upload New Photo Card -->
+    <div class="glass-card card-padding" style="margin-bottom:16px;background:rgba(255,255,255,0.04)">
+      <div style="font-weight:700;color:var(--text-secondary);font-size:.95rem;margin-bottom:10px">✨ Add New Photo to World</div>
+      
+      <div class="photo-upload-dropzone" id="photo-dropzone">
+        <input type="file" id="photo-file-input" accept="image/*" style="display:none">
+        <div id="photo-preview-placeholder">
+          <div style="font-size:2rem;margin-bottom:4px">📁</div>
+          <div style="font-size:.85rem;color:var(--text-secondary);font-weight:600">Click or Drag & Drop photo here</div>
+          <div style="font-size:.72rem;color:var(--text-muted)">Supports JPG, PNG, WEBP, GIF</div>
+        </div>
+        <img id="photo-upload-preview" class="hidden" alt="Upload preview" style="max-height:160px;border-radius:var(--radius-sm);margin:0 auto;object-fit:cover">
+      </div>
+
+      <div style="margin-top:12px;display:flex;flex-direction:column;gap:10px">
+        <div>
+          <label for="photo-caption-input" style="font-size:.75rem;color:var(--text-muted);display:block;margin-bottom:4px">Caption / Sweet Note</label>
+          <input type="text" id="photo-caption-input" class="settings-text-input" placeholder="e.g. My favorite smile 💕" maxlength="120">
+        </div>
+
+        <div style="display:flex;gap:10px;align-items:center">
+          <div style="flex:1">
+            <label for="photo-album-select" style="font-size:.75rem;color:var(--text-muted);display:block;margin-bottom:4px">Album</label>
+            <select id="photo-album-select" class="settings-text-input" style="padding:8px 12px">
+              <option value="moments">Our Moments 💗</option>
+              <option value="memories">Sweet Memories 🌸</option>
+              <option value="together">Us Together 💑</option>
+            </select>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;margin-top:18px">
+            <label class="toggle" style="transform:scale(0.85)">
+              <input type="checkbox" id="photo-fav-check">
+              <span class="toggle-track"></span>
+            </label>
+            <span style="font-size:.8rem;color:var(--text-secondary)">Star 💗</span>
+          </div>
+        </div>
+
+        <button type="button" class="btn-primary" id="btn-upload-photo" style="margin-top:6px;width:100%">
+          <span>➕ Permanently Add Photo</span>
+        </button>
+        <div id="photo-upload-status" style="font-size:.8rem;text-align:center;min-height:1.2em"></div>
+      </div>
+    </div>
+
+    <!-- Manage Existing Photos Card -->
+    <div class="glass-card card-padding" style="background:rgba(255,255,255,0.04)">
+      <div class="flex-between" style="margin-bottom:10px">
+        <div style="font-weight:700;color:var(--text-secondary);font-size:.95rem">
+          🗑️ Current Photos (<span id="photo-manager-count">0</span>)
+        </div>
+        <input type="text" id="photo-search-input" class="settings-text-input" placeholder="Search caption/file..." style="width:140px;padding:4px 8px;font-size:.75rem">
+      </div>
+      <div id="photo-manager-list" class="photo-manager-scroll">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Engine -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
