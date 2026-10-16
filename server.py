@@ -4,7 +4,8 @@ import json
 import base64
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
-PORT = 55096
+PORT = int(os.environ.get("PORT", 55096))
+HOST = "0.0.0.0"
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 MANIFEST_PATH = os.path.join(BASE_DIR, "media-manifest.json")
 
@@ -122,8 +123,8 @@ class BirthdayHandler(SimpleHTTPRequestHandler):
         self.wfile.write(body)
 
 if __name__ == "__main__":
-    server = HTTPServer(("127.0.0.1", PORT), BirthdayHandler)
-    print(f"Birthday server with Photo Management API listening on http://127.0.0.1:{PORT}")
+    server = HTTPServer((HOST, PORT), BirthdayHandler)
+    print(f"Birthday server with Photo Management API listening on http://{HOST}:{PORT}")
     try:
         server.serve_forever()
     except KeyboardInterrupt:
