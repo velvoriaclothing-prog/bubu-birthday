@@ -143,9 +143,15 @@ const preloader = new AssetPreloader();
 async function loadManifest() {
   try {
     const r = await fetch('media-manifest.json');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
     STATE.manifest = await r.json();
     return STATE.manifest;
   } catch (e) {
+    if (window.EMBEDDED_BUBU_MANIFEST) {
+      console.log('Using embedded manifest fallback');
+      STATE.manifest = JSON.parse(JSON.stringify(window.EMBEDDED_BUBU_MANIFEST));
+      return STATE.manifest;
+    }
     console.warn('Manifest not found, using empty state');
     STATE.manifest = { photos: [], videos: [], albums: [], loveLetters: [], birthdaySchedule: [], mysteryGifts: [] };
     return STATE.manifest;
